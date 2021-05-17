@@ -20,6 +20,8 @@
   color: #fff;
   box-sizing: border-box;
   padding: 25px;
+  position: relative;
+  transition: 0.6s;
 }
 
 .col:nth-child(1) {
@@ -44,6 +46,7 @@ h2 {
   max-width: 230px;
   font-size: 12px;
   margin: 28px 0;
+  display: none;
 }
 
 .caption button {
@@ -56,4 +59,15 @@ h2 {
   margin-top: 20px;
   cursor: pointer;
   font-size: 12px;
+}
+
+.col img {
+  width: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.col:hover {
+  flex-grow: 2.5;
 }

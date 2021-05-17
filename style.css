@@ -39,3 +39,21 @@ h2 {
   font-size: 22px;
   font-weight: 600;
 }
+
+.caption {
+  max-width: 230px;
+  font-size: 12px;
+  margin: 28px 0;
+}
+
+.caption button {
+  border: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  padding: 8px 18px;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
